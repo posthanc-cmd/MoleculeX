@@ -30,10 +30,10 @@ export const ResearchReport: React.FC<ResearchReportProps> = ({ mission, molecul
       <div className="flex justify-end mb-6 print:hidden">
         <button 
           onClick={handlePrint}
-          className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-md text-sm font-medium transition border border-slate-200 shadow-sm"
+          className="flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-700 px-6 py-3 rounded-xl text-sm font-bold transition-all border border-slate-200 shadow-sm hover:shadow active:scale-95 group"
         >
-          <Printer className="w-4 h-4" />
-          Print / Export PDF
+          <Printer className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
+          Download PDF
         </button>
       </div>
 
